@@ -16,4 +16,4 @@ echo "0489 e111" | sudo tee /sys/bus/usb/drivers/btusb/new_id
 
 # Suspend
 ## Fix:
-No fix yet, please help
+https://4pda.to/forum/index.php?showtopic=1083187&view=findpost&p=134008907 - use translator
