@@ -4,6 +4,7 @@ fixes for touchpad, bluetooth and suspend for lenovo 14/16 g7+ ASP
 # Touchpad
 ## Fix:
 Compile libinput from sources
+https://wayland.freedesktop.org/libinput/doc/latest/building.html
 
 # Bluetooth
 ## Fix:
