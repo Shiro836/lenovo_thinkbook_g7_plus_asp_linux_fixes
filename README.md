@@ -13,6 +13,7 @@ Update kernel to 6.12+ and execute this:
 echo "0489 e111" | sudo tee /sys/bus/usb/drivers/btusb/new_id
 ```
 "0489 e111" is taken from lsusb output
+There is no problem if you use arch with latest kernel
 
 # Suspend
 ## Fix:
