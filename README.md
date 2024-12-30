@@ -17,3 +17,10 @@ echo "0489 e111" | sudo tee /sys/bus/usb/drivers/btusb/new_id
 # Suspend
 ## Fix:
 https://4pda.to/forum/index.php?showtopic=1083187&view=findpost&p=134008907 - use translator
+
+https://github.com/ty2/ideapad-laptop-tb2024g6plus
+adjust hardware UUIDs using dmidecode
+
+# Hibernate
+## Fix:
+no known fix, just turn it off I guess
