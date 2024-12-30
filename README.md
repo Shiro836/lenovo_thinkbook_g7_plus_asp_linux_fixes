@@ -3,7 +3,7 @@ fixes for touchpad, bluetooth and suspend for Lenovo Thinkbook 14/16 g7+ ASP
 
 # Touchpad
 ## Fix:
-Compile libinput from sources
+Compile libinput from sources</br>
 https://wayland.freedesktop.org/libinput/doc/latest/building.html
 
 # Bluetooth
@@ -12,8 +12,8 @@ Update kernel to 6.13+ and execute this:
 ```bash
 echo "0489 e111" | sudo tee /sys/bus/usb/drivers/btusb/new_id
 ```
-"0489 e111" is taken from lsusb output
-There is no problem if you use arch with latest kernel
+"0489 e111" is taken from lsusb output</br>
+You don't need command above if you use arch with latest kernel
 
 # Suspend
 ## Fix:
